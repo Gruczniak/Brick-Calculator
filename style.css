@@ -1,0 +1,80 @@
+body{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: none;
+    height: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+hr {
+    background-color: brown;
+    border-color: brown;
+    width: 70%
+}
+.grid div {
+    width: 10vh;
+    height: 10vh;  
+}
+
+#sum {
+    margin-top: 10px;
+}
+#assets {
+    height: 10vh;
+}
+.first, .second, .third, .fourth, .fiveth, .sixth {
+    width: 10vh;
+    height: 10vh;
+    float: left;
+}
+
+.first {
+    background-image: url('assets/first.png');
+}
+
+.second {
+    background-image: url('assets/second.png');
+}
+
+.third {
+    background-image: url('assets/third.png');
+}
+
+.fourth {
+    background-image: url('assets/fourth.png');
+}
+
+.fiveth {
+    background-image: url('assets/fiveth.png');
+}
+
+.sixth {
+    background-image: url('assets/sixth.png');
+}
+
+input[type=text] {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#sum {
+    margin-top: 35px;
+}
+#mySubmit {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
